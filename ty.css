@@ -1,0 +1,73 @@
+body{
+	 
+     background-color:  #659dbd;
+	 margin: 0px;
+	 padding: 0px;
+	 
+}
+.header{
+	display: flex;
+	margin: 20px;
+	background-color:white;
+}
+.logo{
+	flex-basis: 50%;
+	padding: 10px;
+
+}
+.menu{
+	flex-basis: 50%;
+	padding: 10px;
+	margin: 30px;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+
+}
+.logo img{
+	width: 350px;
+}
+
+.menu a{
+	padding: 20px;
+	text-decoration: none;
+	font-size: 20px;
+	font color: white;
+	color: black; 
+
+}
+.menu a:hover{
+	color: white;
+	background-color:#659dbd;	
+}
+.slide{
+	display: flex;
+	padding: 20px;
+}
+.slide h1{
+	color: yellow;
+	margin: 7px;
+	padding: 4px;
+	font-size:40px;
+}
+.slide p{
+	color: white;
+	text-align: left;
+    font-size: 22px;
+    margin: 8px;
+    padding: 5px;
+}
+.left-slide{
+	flex-basis: 50%;
+
+}
+.Right-slide img{
+    width: 450px;
+    height: 350px;
+}
+.left-slide h1{
+	font-size: 9px;
+}
+.left-slide{
+	font-size: 28px;
+}
